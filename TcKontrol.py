@@ -40,7 +40,7 @@ def bmi():
 
 
 def save(i):
-    file = open("history.txt", "x")
+    file = open("history.txt", "a")
     file.write(i)
     file.close()
 
