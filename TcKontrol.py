@@ -11,7 +11,7 @@ class TCK():
 
         tck = str(self.tck)
 
-        if(len(tck) < 11):
+        if(len(tck) != 11):
             return tck+" nope"
 
         lst = [int(x) for x in str(tck)]
