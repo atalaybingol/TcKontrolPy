@@ -32,9 +32,17 @@ class TCK():
 def bmi():
 
     tc = input("TC Kimlik Numarası：", type=FLOAT)
+
     a = TCK(tc)
 
+    save(a.check())
     put_text(a.check())
+
+
+def save(i):
+    file = open("history.txt", "x")
+    file.write(i)
+    file.close()
 
 
 while(True):
