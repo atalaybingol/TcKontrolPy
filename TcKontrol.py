@@ -29,7 +29,7 @@ class TCK():
             return tck+" nope"
 
 
-def bmi():
+def main():
 
     tc = input("TC Kimlik Numarası：", type=FLOAT)
 
@@ -47,4 +47,4 @@ def save(i):
 
 while(True):
     if __name__ == '__main__':
-        bmi()
+        main()
